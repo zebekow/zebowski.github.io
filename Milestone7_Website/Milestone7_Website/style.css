@@ -1,0 +1,305 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size:small;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 10px 10px 10px 10px;
+	
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the blocks, instead of the block elements themselves, gets rid of any box model math. A nested block with side padding can also be used as an alternate method. */
+	text-align: center;
+}
+ select{
+	width:155px;
+}
+textarea{
+	width:765px;
+}
+#containergallery img{
+	width: 500px;
+height: 295px;
+}
+#warningmsg{
+	font-size:7pt;
+}
+.homemaintable{
+	width: 100%; 
+	text-align: center;
+}
+.admissionsdiv{
+	margin-left:100px;
+}
+.admissionsp{
+width:649px;
+}
+
+.container {
+	width: 959px;
+	background-color: #BEDADF; 
+	color: #4b686e;
+	margin: 0 auto; 
+}
+.tblHeaderClass
+{
+	vertical-align: bottom;
+	height: 50px;
+}
+#donationcontents{
+	position:relative; 
+	width:640px;
+}
+.contactemail{
+top: 3px; 
+position: relative; 
+vertical-align: top;
+}
+
+#feedbackcontents{
+	position:relative; 
+	width:640px;
+	margin-left: 0px;
+}
+.maintable{width:900px;}
+.bannerImage{
+	position:relative; 
+	display:inline;
+	width:100%;
+	height: 165px;
+}
+
+.footerclass{
+	padding-left:5px;
+}
+.FormHeading{
+	margin-top: 9px;
+}
+
+.red{
+color:red;
+font-weight:bold;
+}
+
+#error{
+width: 70%;
+margin-left:350px;
+}
+
+img.imgFloatLeft
+{
+	float: left;
+		margin-right:10px;
+	margin-left:10px;
+	vertical-align: top;
+}
+
+img.imgFloatRight
+{
+	float: right;
+	vertical-align: top;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+
+.DottedBorderdiv
+{
+	background-color: #BEDADF;
+	width: 808px;
+	vertical-align: top;
+	position: relative;
+	margin-left:auto;
+	margin-bottom:auto;
+	margin-right:auto;
+	margin-top:auto;
+	border: solid 1px #BEDADF;
+}
+
+.tblTD
+{
+	width: 25%;
+	text-align: left;
+	vertical-align: top;
+	font-size:small;
+}
+
+
+header {
+	background-color: #4b686e; 
+	color:#4b686e;
+}
+.sidebar1 {
+	float: left;
+	width: 180px;
+	background-color: #BEDADF; 
+	color: #4b686e;
+	padding-bottom: 10px;
+	height: 1vmax;
+	min-width: 0px;
+}
+.content {
+	padding: 0px 0;
+	float: left;
+	height:400px;
+}
+.clear{clear:both}
+aside {
+	float: left;
+	width: 180px;
+	background-color: #BEDADF; color: #4b686e;
+	padding: 10px 0;
+	
+}
+.mainheader{
+color: #4b686e;
+Font-Size: 48px;
+position: absolute;
+z-index: 1;
+padding-left: 430px;
+text-shadow: -1px 0 rgb(71, 64, 64), 0 1px gray, 1px 0 rgb(71, 64, 64), 0 -1px rgb(71, 64, 64);
+padding-top: 90px;
+font-family:"Comic Sans MS", cursive;
+font-style:italic;
+}
+footer {
+	padding: 4px 0;
+	font-size: 85%;
+	background-color: #4b686e;
+	color: White;
+	position: relative;
+	clear: both; 
+}
+
+  ul {list-: none;padding: 0px;margin: 0px;}
+  ul li.menu {display: block;position: relative;float: left;border:1px solid #4b686e; width: 135px;}
+  ul li.menu a {display: block;background: #4b686e;padding: 5px 50px 5px 50px;text-decoration: none;
+           white-space: nowrap;color: #fff;}
+  ul li.menu a:hover {background: #000;}
+  li.menu:hover ul {display: block; position: absolute;}
+  li.menu:hover li {float: none;}
+  li.menu:hover a {background: #000;}
+  li.menu:hover li a:hover {background: #4b686e;}
+  #drop-nav li ul li {border-top: 0px;}
+  
+
+
+.rightalign{
+	vertical-align:top;
+	text-align:right;
+}
+
+.leftalign{
+	vertical-align:top;
+	text-align:left;
+}
+.centeralign{
+	text-align:center;
+}
+
+
+#ordereditem li{
+	font-size:10px;
+}
+.alignedtext{
+	margin-left:15px;
+	position: absolute;
+	top: 30px;
+	left: 79px;
+}
+.green{
+	color:green;
+	font-weight:bold;
+}
+#message{
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+}
+
+.maincontents{
+	padding-left:10px;
+}
+
+
+header, section, footer, aside, figure {
+	display: block;
+}
+article{
+	width:100%;
+	display: block;
+}
+
+.H2WithoutMargin{
+margin-bottom: 0px;
+margin-top:2px;
+}
+
+#containergallery{
+	width:504px;
+	height:323px;
+	position:relative;
+	margin-left:220px;
+}
+#donationcontents img{
+	border-width:0px;
+	margin-left: 25px;
+}
+.Donationdiv{
+margin-left: 150px; 
+}
+#containergallery .prevButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('images/slideshowimages/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:left top;
+	left:0
+}
+
+#containergallery .prevButton:hover{ background-position:left bottom;left:0;}
+
+#containergallery .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('images/slideshowimages/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+#containergallery .nextButton:hover{background-position:right bottom;right:0;}
+
+#containergallery ul{
+	width:504px;
+	height:295px;
+	list-:none outside none;
+	position:relative;
+	overflow:hidden;
+}
+
+#containergallery li:first-child{
+	display:list-item;
+	position:absolute;
+}
+
+#containergallery li{
+	position:absolute;
+	display:none;
+}
+
